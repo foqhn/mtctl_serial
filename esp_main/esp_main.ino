@@ -8,8 +8,6 @@
 #define IN4 14
 int maxSpeed = 255;
 
-
-
 void motor(int speedA_pct, int speedB_pct) {
   int speedA = speedA_pct * maxSpeed / 100;
   int speedB = speedB_pct * maxSpeed / 100;
